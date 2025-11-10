@@ -276,7 +276,7 @@ def disjoint_merge(
     return merged
 
 
-@merge_method(identifier="🔨_ties_merging_with_json", register=True)
+@merge_method(identifier="🔨_ties_with_json", register=True)
 def ties_merging_with_json(
         base_model: Parameter(Tensor),
         *tensors: Parameter(Tensor),

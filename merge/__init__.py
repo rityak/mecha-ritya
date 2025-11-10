@@ -5,3 +5,4 @@ from .perpendicular import *
 from .weight_json import *
 from .tensor_sum_json import *
 from .ties_json import *
+from .ties_lora_json import *
